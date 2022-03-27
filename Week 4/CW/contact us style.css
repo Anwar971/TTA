@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+}
+
+.heading_one{
+    background-color: black;
+    color: gold;
+    margin-left: 80px;
+    margin-right: 80%;
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.location_text{
+
+    color: white;
+    background-color:black;
+    margin-left: 80px;
+    margin-right: 75%;
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2_heading{
+    color: gold;
+    background-color: black;
+    position: relative;
+    left: 10cm;
+    padding-left: 0%;
+    margin-right: 83%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 27cm;
+    bottom: 7.5cm;
+}
+
+/*line in the middle of page*/
+.vl { 
+    border-left: 6px solid gold;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+
+  }
+
+  form {
+    width: 40%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    color: gold;
+    background-color: black;
+    position: relative;
+    left: 10cm;
+    bottom: 7cm;
+
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+input + input {
+    float: right;
+}
+
+.options_tab{
+  position: relative;
+  left: 5.5cm;
+  top: -0.5cm
+ 
+}
+
+.text{
+  
+  position: relative;
+  right: 0.000003cm
+  
+}
+
+.button{
+  position: relative;
+  top: 2cm;
+  left: 5.5cm;
+  padding:0% auto
+
+}
+
+
+
+
+    
+
+
+

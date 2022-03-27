@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0cm;
+    padding: 0cm;
+    overflow: hidden;
+    background-color: black;
+    
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(63, 61, 61);
+  }
+
+  /*control of the location for nav bar*/
+  .list{  
+
+    position: relative;
+    top: -0.2cm;
+    left: -17.5cm;
+    margin-right: 10cm;
+    margin-left: 16cm;
+    padding: 0%;
+
+  }
+
+  h1{
+      text-align: center;
+      background-color: white;
+      color: black;
+  }
+
+
+.what_we_do{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-right: 25cm;
+    border-color: gold;
+    border-width: 1px;
+    color: gold;
+    border-style: solid;
+
+}
+
+.cakes{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:20cm;
+    margin-right: 2cm;
+    position: relative;
+    bottom: 1cm;
+    left: 1cm;
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+}
+
+.heading_two{
+
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 0cm;
+    margin-right: 34cm;
+    position: relative;
+    left: 26.5cm;
+    bottom: 0.5cm;
+    text-shadow: 1px 1px silver;
+    
+}
+
+.cake_one{
+    position: relative;
+    left: 15cm;
+    bottom: 15cm;
+}
+
+.cake_two{
+    position: relative;
+    left: 15cm;
+    bottom: 13cm;
+}
