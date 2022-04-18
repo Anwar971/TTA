@@ -1,0 +1,163 @@
+*{ 
+margin: 0%; /* this is for the whole screen width */
+padding: 0%;
+}
+    
+.bg{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url(./wall1.jpg);
+/*above rgba allows for the tint effect*/
+background-position: center;
+background-size: cover;
+position: relative;
+}
+    
+/*standard image stats for background to be used from now on*/
+    
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between; /* equal space both side between content*/
+align-items: center;
+}
+
+.nav_link {
+flex: 1;
+text-align: right;
+}
+    
+ul {
+list-style-type: none; /* removes bullet points*/
+display: inline-block;
+padding: 0%;
+margin: 0%;
+overflow: hidden;
+position: relative;
+top: 25px;
+}
+    
+li {
+float: right;
+}
+    
+li a {  /* styling for the cotent witin the nav bar aka the text  and containers*/
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+font-size: 13px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+}
+    
+.nav_link ul li::after{ /* hover affect underneath the text*/
+content: '';  /* under the text thats in the brackets*/
+width: 0%; /*  thickness*/
+height: 2px;
+background: steelblue; /* color of the transition*/
+display: block; 
+margin:auto;
+transition: 0.5s; /* animation length*/
+}
+    
+.nav_link ul li:hover::after{
+width: 100%;/* after hover you want animation length to be */
+}
+
+.form_container{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.0em;
+font-weight: 500;
+padding: 10px;
+text-align: left;
+margin-left: 20%;
+margin-right: 25%;
+padding-bottom: 20%;
+display: block;
+
+}
+
+#full_name{
+position: absolute;
+bottom: 10cm;
+
+}
+
+.name_container{
+position: relative;
+left: 30px;
+padding: 1px;
+border: 2px solid black;
+
+}
+
+#phone_number{
+position: absolute;
+bottom: 6cm;
+    
+}
+
+.phone_container{
+position: relative;
+left: 2px;
+padding: 1px;
+
+}
+
+#email_address{
+position: absolute;
+bottom: 8cm;
+}
+
+.email_container{
+position: relative;
+left: 63px;
+padding: 1px;
+}
+
+
+h1{
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 3em;
+color: antiquewhite;
+position: absolute;
+left: 18cm;
+top: 1cm;
+}
+
+.send_mail_container{ /* the positioning of the send_mailurl hyper link*/
+position: absolute;
+bottom: 4cm;
+}
+
+/* I belive the (":") is for pseudoselecting */
+
+a.send_mail_url:link{ /* so, a tag. the class of the tage aka the send mail url : link means i can edit the said link properties*/
+color: steelblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a.send_mail_url:hover{/* when hover over the url turns white*/
+color: aliceblue;
+}
+
+.light_mode_button {/* not sure why button dont work tryed different variation bacgrkound,background-color etc*/
+background-color:(rgba(4,9,30,1),rgba(4,9,30,1));
+position: fixed;
+bottom: 2cm;
+left:2cm;
+}
+
+
+
+
+
+
+
+
+

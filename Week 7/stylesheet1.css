@@ -1,0 +1,143 @@
+*{ 
+margin: 0%; /* this is for the whole screen width */
+padding: 0%;
+}
+
+.bg{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url(./wall1.jpg);
+/*above rgba allows for the tint effect*/
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+/*standard image stats for background to be used from now on*/
+
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between; /* equal space both side between content*/
+align-items: center;
+}
+
+nav img{ /* nav tag than the img child tag to the nav styles the image*/
+width: 200px;
+height: 50px;
+}
+
+.nav_link {
+flex: 1;
+text-align: right;
+}
+
+ul {
+list-style-type: none; /* removes bullet points*/
+display: inline-block;
+padding: 0%;
+margin: 0%;
+overflow: hidden;
+position: relative;
+top: 25px;
+}
+
+li {
+float: right;
+}
+
+li a {  /* styling for the cotent witin the nav bar aka the text  and containers*/
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+font-size: 13px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+}
+
+.nav_link ul li::after{ /* hover affect underneath the text*/
+content: '';  /* under the text thats in the brackets*/
+width: 0%; /*  thickness*/
+height: 2px;
+background: steelblue; /* color of the transition*/
+display: block; 
+margin:auto;
+transition: 0.5s; /* animation length*/
+}
+
+.nav_link ul li:hover::after{
+width: 100%;/* after hover you want animation length to be */
+}
+
+
+.title{ /* Title styling and positioning */
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+display: flex;
+margin-right: 20%;
+color: white;
+position: absolute;
+left: 47%;
+top: 9%;
+}
+
+#post_box{/* text box styling and positioning */
+position: absolute;
+left: 40%;
+bottom: 45%;
+border: 1px solid black;
+overflow: auto;
+color: black;
+resize: none;
+text-align: left;
+}
+
+#Submit{ /* submit button styling */
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 30px;
+width: 60px;
+font: arial,sans-serif;
+text-shadow: none;
+position: absolute;
+left: 61.3%;
+bottom: 40%;
+
+}
+
+#china_pic{ /* china picture resize */ 
+width: 231px;
+height: 220px;
+}
+
+.china_container{ /* poloroid contianer */
+width: 15%;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 25px;
+position: relative;
+left: 350px;
+top: 40px; 
+
+    
+}
+.china_text{ /* text eithinthe poloroid continer */
+text-align: center;
+padding: 10px 20px;
+}
+
+.light_mode_button {/* not sure why button dont work tryed different variation bacgrkound,background-color etc*/
+background-color:(rgba(4,9,30,1),rgba(4,9,30,1));
+position: fixed;
+bottom: 2cm;
+left:2cm;
+}
+
+
+
+
+

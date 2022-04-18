@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./stylesheet2.css">
+    <script src="./jscw.js"></script> <!-- JS link-->
+
+    
+</head>
+<body>
+
+    <section class="bg"> <!-- background image that way other items call fall on the image---> 
+
+        <div> <!-- light mode button with js onclick function-->
+            <button class="light_mode_button" name="light_mode_button" onclick="light_mode_button()">Toggle light mode</button>
+        </div>
+       
+        <nav> 
+                
+            <div class="nav_link"> 
+
+                    <ul> <!-- naviagtion links-->
+
+                        <li><a href="./CW.html">Blog</a></li>
+                        <li><a href="./cw2.html">Contact us</a></li>
+
+                    </ul>
+            </div>
+
+        </nav>
+
+        <div class="title">
+            <h1 class="title_one">
+                Contact us
+            </h1>
+        </div>
+
+        <div class="form_container"> <!-- containet of form baground layout adjusted etc-->
+
+            <form action="fakewesbite.com" method="get"></form>
+
+            <!-- Could of given each label same class that way i could move them around together but decided to give spepeate class and id-->
+
+            <label id="full_name">Full Name: <input class="name_container" type="text" placeholder="Your full name" name="full_name" required></label>
+            
+            <label id="phone_number">Phone Number: <input class="phone_container" type="phone_number" placeholder="Your phone number" name="phone_number" required></label>
+            
+            <label id="email_address">Email: <input class="email_container" type="email_address" placeholder="Your email address" name="email_address" required></label>
+
+            <div class="send_mail_container">
+
+                <p>  
+
+                    <a class="send_mail_url" href="mailto:anon@gmail.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send contact information.</a>
+        
+                </p>
+
+            </div>
+        
+        </div>
+
+    </section>
+
+</body>
+
+</html>
